@@ -87,7 +87,7 @@
 
   <style name="skin_hotspotstyle"
     scale=".5"
-    url="assets/img/hs_animation.png"
+    url="assets/img/new_spotd7_gif.png"
     crop="0|0|100|100"
     framewidth="128" frameheight="128" frame="0" lastframe="24"
      onclick="goto();skin_hotspotstyle_click();activeScene_menu();activeScene();linkscene_title();"

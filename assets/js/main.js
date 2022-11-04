@@ -2,184 +2,52 @@ $(document).ready(function(){
   // $(".guide").hide();
   $(".close").click(function(){
     $(".guide").hide();
-    $("#icon_sharelink").css('opacity','1');
-      $("#icon_info").css('opacity','1');
-      $("#icon_mute").css('opacity','1');
-      $("#icon_unmute").css('opacity','1');
-      $("#hotspot_Close").css('opacity','1');
-      $("#hotspot_open").css('opacity','1');
-      $("#icon_fullscreen").css('opacity','1');
-      $("#icon_VR").css('opacity','1');
-      $("#icon_form").css('opacity','1');
-      $("#icon_map").css('opacity','1');
-      $("#icon_rotate").css('opacity','1');
-      $("#icon_unrotate").css('opacity','1');
-      $("#icon_album").css('opacity','1');
+    
   });
   $(".guide").click(function(){
       $(".guide").hide();
-      $("#icon_sharelink").css('opacity','1');
-      $("#icon_info").css('opacity','1');
-      $("#icon_mute").css('opacity','1');
-      $("#icon_unmute").css('opacity','1');
-      $("#hotspot_Close").css('opacity','1');
-      $("#hotspot_open").css('opacity','1');
-      $("#icon_fullscreen").css('opacity','1');
-      $("#icon_VR").css('opacity','1');
-      $("#icon_form").css('opacity','1');
-      $("#icon_map").css('opacity','1');
-      $("#icon_rotate").css('opacity','1');
-      $("#icon_unrotate").css('opacity','1');
-      $("#icon_album").css('opacity','1');
+      
   });
   $("#icon_guide").click(function(){
       $(".guide").show();
-      $("#icon_sharelink").css('opacity','0');
-      $("#icon_info").css('opacity','0');
-      $("#icon_mute").css('opacity','0');
-      $("#icon_unmute").css('opacity','0');
-      $("#hotspot_Close").css('opacity','0');
-      $("#hotspot_open").css('opacity','0');
-      $("#icon_fullscreen").css('opacity','0');
-      $("#icon_VR").css('opacity','0');
-      $("#icon_form").css('opacity','0');
-      $("#icon_map").css('opacity','0');
-      $("#icon_rotate").css('opacity','0');
-      $("#icon_unrotate").css('opacity','0');
-      $("#icon_album").css('opacity','0');
+      
 
   });
 });
 // click info
 $(".close").click(function(){
   $(".info").hide();
-    $("#icon_sharelink").css('opacity','1');
-      $("#icon_guide").css('opacity','1');
-      $("#icon_mute").css('opacity','1');
-      $("#icon_unmute").css('opacity','1');
-      $("#hotspot_Close").css('opacity','1');
-      $("#hotspot_open").css('opacity','1');
-      $("#icon_fullscreen").css('opacity','1');
-      $("#icon_VR").css('opacity','1');
-      $("#icon_form").css('opacity','1');
-      $("#icon_map").css('opacity','1');
-      $("#icon_rotate").css('opacity','1');
-      $("#icon_unrotate").css('opacity','1');
-      $("#icon_album").css('opacity','1');
+   
 });
 $(".info").click(function(){
     $(".info").hide();
-    $("#icon_sharelink").css('opacity','1');
-      $("#icon_guide").css('opacity','1');
-      $("#icon_mute").css('opacity','1');
-      $("#icon_unmute").css('opacity','1');
-      $("#hotspot_Close").css('opacity','1');
-      $("#hotspot_open").css('opacity','1');
-      $("#icon_fullscreen").css('opacity','1');
-      $("#icon_VR").css('opacity','1');
-      $("#icon_form").css('opacity','1');
-      $("#icon_map").css('opacity','1');
-      $("#icon_rotate").css('opacity','1');
-      $("#icon_unrotate").css('opacity','1');
-      $("#icon_album").css('opacity','1');
+    
 });
 $("#icon_info").click(function(){
     $(".info").show();
-    $("#icon_sharelink").css('opacity','0');
-      $("#icon_guide").css('opacity','0');
-      $("#icon_mute").css('opacity','0');
-      $("#icon_unmute").css('opacity','0');
-      $("#hotspot_Close").css('opacity','0');
-      $("#hotspot_open").css('opacity','0');
-      $("#icon_fullscreen").css('opacity','0');
-      $("#icon_VR").css('opacity','0');
-      $("#icon_form").css('opacity','0');
-      $("#icon_map").css('opacity','0');
-      $("#icon_rotate").css('opacity','0');
-      $("#icon_unrotate").css('opacity','0');
-      $("#icon_album").css('opacity','0');
+    
 });
 // click show map
 $("#icon_map").click(function(){
   $(".map").show();
-  $("#icon_sharelink").css('opacity','0');
-  $("#icon_guide").css('opacity','0');
-  $("#icon_mute").css('opacity','0');
-  $("#icon_unmute").css('opacity','0');
-  $("#hotspot_Close").css('opacity','0');
-  $("#hotspot_open").css('opacity','0');
-  $("#icon_fullscreen").css('opacity','0');
-  $("#icon_VR").css('opacity','0');
-  $("#icon_form").css('opacity','0');
-  $("#icon_info").css('opacity','0');
-  $("#icon_rotate").css('opacity','0');
-  $("#icon_unrotate").css('opacity','0');
-  $("#icon_album").css('opacity','0');
+  
 });
 $(".close").click(function(){
   $(".map").hide();
-    $("#icon_sharelink").css('opacity','1');
-      $("#icon_guide").css('opacity','1');
-      $("#icon_mute").css('opacity','1');
-      $("#icon_unmute").css('opacity','1');
-      $("#hotspot_Close").css('opacity','1');
-      $("#hotspot_open").css('opacity','1');
-      $("#icon_fullscreen").css('opacity','1');
-      $("#icon_VR").css('opacity','1');
-      $("#icon_form").css('opacity','1');
-      $("#icon_info").css('opacity','1');
-      $("#icon_rotate").css('opacity','1');
-      $("#icon_unrotate").css('opacity','1');
-      $("#icon_album").css('opacity','1');
+    
 });
 $(".map").click(function(){
     $(".map").hide();
-    $("#icon_sharelink").css('opacity','1');
-      $("#icon_guide").css('opacity','1');
-      $("#icon_mute").css('opacity','1');
-      $("#icon_unmute").css('opacity','1');
-      $("#hotspot_Close").css('opacity','1');
-      $("#hotspot_open").css('opacity','1');
-      $("#icon_fullscreen").css('opacity','1');
-      $("#icon_VR").css('opacity','1');
-      $("#icon_form").css('opacity','1');
-      $("#icon_info").css('opacity','1');
-      $("#icon_rotate").css('opacity','1');
-      $("#icon_unrotate").css('opacity','1');
-      $("#icon_album").css('opacity','1');
+    
 });
 $("#icon_album").click(function(){
   $(".album_thumb").show();
-  $("#icon_sharelink").css('opacity','0');
-  $("#icon_guide").css('opacity','0');
-  $("#icon_mute").css('opacity','0');
-  $("#icon_unmute").css('opacity','0');
-  $("#hotspot_Close").css('opacity','0');
-  $("#hotspot_open").css('opacity','0');
-  $("#icon_fullscreen").css('opacity','0');
-  $("#icon_VR").css('opacity','0');
-  $("#icon_info").css('opacity','0');
-  $("#icon_map").css('opacity','0');
-  $("#icon_rotate").css('opacity','0');
-  $("#icon_unrotate").css('opacity','0');
-  $("#icon_form").css('opacity','0');
+  
 
 });
 $(".close_album_thumb").click(function(){
   $(".album_thumb").hide();
-  $("#icon_sharelink").css('opacity','1');
-  $("#icon_guide").css('opacity','1');
-  $("#icon_mute").css('opacity','1');
-  $("#icon_unmute").css('opacity','1');
-  $("#hotspot_Close").css('opacity','1');
-  $("#hotspot_open").css('opacity','1');
-  $("#icon_fullscreen").css('opacity','1');
-  $("#icon_VR").css('opacity','1');
-  $("#icon_info").css('opacity','1');
-  $("#icon_map").css('opacity','1');
-  $("#icon_rotate").css('opacity','1');
-  $("#icon_unrotate").css('opacity','1');
-  $("#icon_form").css('opacity','1');
+  
 
 });
 // click popup 
@@ -444,8 +312,8 @@ var array_info = [
   
   },
   {
-    title_info : "Giới thiệu về HTX Lựu Chanh",
-    content_info: "- Loại hình doanh nghiệp: Hợp Tác Xã<br> - Người đại diện: Hà Thị Chanh<br>- Địa chỉ: Thôn Nhân Lý, xã Trường Sơn, huyện  Lục Nam, tỉnh Bắc Giang<br>- Điện thoại: 0962.831.385<br>- Email: duoclieutamduc@gmail.com<br>Hợp tác xã sản xuất cây dược liệu Lựu Chanh được thành lập đầu năm 2017 với ngành nghề chính là trồng và chế biến sản xuất dược liệu mà trong đó trà hoa vàng là sản phẩm chủ lực chính, sản phẩm được công nhận và xếp loại OCOP 4* sao.<br>Với sự cố gắng vượt qua rất nhiều khó khăn trở ngại cũng như không ngừng học hỏi áp dụng những biện pháp nâng cao hiệu quả, hiện nay, tổng diện tích trồng cây chè hoa vàng của hợp tác xã khoảng trên 10ha, có vườn ươn cây giống để cung cấp cho các địa phương.<br>Ngày 19/12/2020 tại thôn Nhân Lý, xã Trường Sơn, huyện Lục Nam, Hợp tác xã sản xuất cây dược liệu Lựu Chanh xã Trường Sơn long trọng tổ chức buổi khai trương điểm giới thiệu và bán sản phẩm OCOP và các đặc sản vùng miền của tỉnh Bắc Giang.<br>Với vị trí rất thuận lợi nằm trên con đường (Đường 293) tuyến đường Hoằng dương phật pháp kết nối những địa danh tâm linh, lịch sử giữa thành phố Bắc Giang và vùng đất Tây Yên Tử linh thiêng, huyền bí. <br>Điểm giới thiệu và bán sản phẩm OCOP (của HTX sản xuất cây dược liệu Lựu Chanh xã Trường Sơn ) được khai trương hứa hẹn sẽ tạo ra chuỗi liên kết giữa các chủ thể sản xuất và nhà phân phối sản phẩm OCOP, góp phần quan trọng trong việc giới thiệu, quảng bá các sản phẩm OCOP của tỉnh nói chung và sản phẩm OCOP của huyện Lục Nam nói riêng; đồng thời, là điểm đến để nhân dân trong tỉnh và du khách có thể đến tham quan, mua sắm các sản phẩm hàng hoá chủ lực, đặc trưng của các vùng miền trong và ngoài tỉnh, đáp ứng các tiêu chuẩn về quy trình sản xuất, mẫu mã bao bì, xuất xứ nguồn gốc và chất lượng sản phẩm OCOP.<br>Đây là điểm giới thiệu và bán sản phẩm OCOP thứ 3/5 điểm giới thiệu và bán sản phẩm OCOP trên địa bàn tỉnh được hỗ trợ theo QĐ 1656/QĐ-UBND ngày 19 tháng 8 năm 2020 của UBND tỉnh đã khai trương và đi vào hoạt động (sau điểm giới thiệu và bán sản phẩm OCOP FRESH FOOD tại 454  Lê Lợi, TP Bắc Giang; điểm trưng bày và bán sản phẩm OCOP tại thị trấn Bích Động huyện Việt Yên).",
+    title_info : "Giới thiệu về Trường Đại Học Thủy Lợi",
+    content_info: "TRường Đại học Thủy Lợi Nằm tại số 175 Tây Sơn, Đống Đa, Hà Nội. Trường Được Thành Lập Vào Năm 1969 với tiền thân là Học Viện Thủy Lợi Điện Lực ....",
    images:[
     
       {
@@ -458,8 +326,8 @@ var array_info = [
   
   },
   {
-    title_info : "Giới Thiệu về cây Trà Hoa Vàng",
-    content_info: "Trà hoa vàng hay còn gọi là Kim hoa trà, Chè rừng, Hải đường vàng, là một cây có giá trị làm cảnh và là loại thảo dược quý. Cây có nguồn gốc bản địa phân bố ở một vài vùng núi phía bắc nước ta. Theo nghiên cứu khoa học hiện đại, Trà hoa vàng là loài dược liệu rất quý, trà có chứa hơn 400 hoạt chất và trong đó quý giá là các saponin, tea polyphenol và các nguyên tố như Selenium (Se), Germannium (Ge), Kalium (K), Kẽm (Zn), Molypden (Mo), Vanadium (V), Mangan (Mn) và các vitamin B1, B2, C. Trà Hoa Vàng được giới y học nghiên cứu rất nhiều và đã được ứng dụng trên nhiều quốc gia như Mỹ,Trung Quốc, Pháp, Nhật Bản, Việt Nam ... <br> Nước sắc lá trà có tác dụng hạ huyết áp rõ ràng và tác dụng được duy trì trong thời gian tương đối dài. Trong lá trà có những hoạt chất làm giảm tổng hàm lượng lipit trong huyếtthanh máu, giảm lượng cholesterol mật độ thấp (cholesterol xấu) và tăng lượng cholesterol mật độ cao (cholesterol tốt). Nước sắc lá trà có tác dụng ức chế sự tụ tập của tiểu cầu, chống sự hình thành huyết khối gây tắc nghẽn mạch máu. Phòng ngừa ung bướu và ức chế sự phát triển của các khối u khác. Giải độc gan và thận, ngăn ngừa xơ vữa động mạnh máu. Ức chế và tiêu diệt vi khuẩn. Ngoài ra, lá chè còn có tác dụng chống viêm, chống dị ứng và duy trì trạng thái bình thường của tuyến giáp. Cây Trà Hoa Vàng ngày nay rất được nhiều người ưa chuộng trồng để làm cảnh và dùng làm trà như một loại thảo dược dùng để dưỡng sinh.<br> 2Trà hoa vàng của Hợp tác xã đã đạt chuẩn OCOP 4 sao và là sản phẩm tiêu biểu cấp Tỉnh 2019, cấp khu vực 2020 và toàn quốc 2021. <br>3Sản phẩm được trồng hữu cơ không dùng thuốc bảo vệ thực vật và  phân bón hoá học. Mỗi năm chỉ ra hoa 1 lần vào tháng 10 đến tháng 12 âm lịch hàng năm. Thu hoạch vào buổi sáng để giữ được hoạt chất quý của trà không bị ảnh hưởng bởi ánh nằng mặt trời. Không thu hái vào trời mưa để thu được những bông trà thơm ngon nhất. Trà được chế biến bằng quy trình sấy công nghệ cao, hiện đại nhất hiện tại sấy thăng hoa, trà khô ở nhiệt độ -40 độ C để đảm bảo giữ được nguyên dược tính hoạt chất quý của trà.",
+    title_info : "Giới Thiệu Về Khoa Công Nghệ Thông tin",
+    content_info: "- Mục Tiêu đào tạo: <br> Đào tạo cử nhân ngành CNTT; trang bị cho sinh viên ra trường có kiến thức khoa học cơ bản liên quan, kiến thức cơ sở và chuyên ngành cntt, có khả năng lập trình máy tính, phân tích và thiết kế phần mềm, xây dựng và quản trị các hệ thoosngcntt, có kĩ năng mềm phù hợp với môi trường làm việc chuyên nghiệp vfa toàn cầu,có năng lữ tìm hiểu công nghệ mới của ngafnhvaf ứng dụng vào các lĩnh vực trong đời sống.<br> - Chương trình Đào tạo: <br> - Thời gian đào tạo 4 năm<br> - Chuyên ngành đào tạo : Công nGhệ thông tin",
 
     images:[
     

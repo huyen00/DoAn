@@ -4,7 +4,7 @@
 	
       <!-- <include url="plugins/showtext.xml" /> -->
     <!-- <include url="plugins/polygonal_hotspots_editor.xml" if="calc(editor)" /> -->
-    <include url="plugins/dragg/dragg.xml"  />
+    <!-- <include url="plugins/dragg/dragg.xml"  /> -->
     <include url="option.xml" />
     <include url="update.xml" />
     <include url="skin/vtourskin.xml" />
